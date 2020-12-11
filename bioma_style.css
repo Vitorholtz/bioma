@@ -169,7 +169,7 @@ article p {
 
 article .desenho {
 
-    width: 15%;
+    width: 25%;
 }
 
 article .article-text {
@@ -355,5 +355,22 @@ input[type=text], select {
     width: 10%;
   }
 
+  /*folhas*/
+
+  .folha1{
+    width: 2%;
+    position: absolute;
+    top:36%;
+    left: 15%;
+    z-index: -100;
+  }
+
+  .folha2{
+    width: 1%;
+    position: absolute;
+    top:46%;
+    left: 31%;
+    z-index: -100;
+  }
 
 
