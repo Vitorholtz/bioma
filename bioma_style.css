@@ -175,7 +175,7 @@ article .desenho {
     width: 25%;
 }
 
-article .article-text {
+.article .article-text {
 
     width: 60%;
 }
@@ -595,6 +595,8 @@ input[type=text], select {
     .logo-header {
 
         width: 5em;
+        margin-left: 2em;
+
     }
     .menu ul {
 
@@ -612,7 +614,7 @@ input[type=text], select {
     }
 
     article .desenho {
-        width: 32%;
+        width: 35%;
     }
 
     .article p {
@@ -650,25 +652,76 @@ input[type=text], select {
 
 }
 
-@media (max-width:950px) { 
+@media (max-width:680px) {
+
+    h1 {
+        text-align: center;
+        font-size: 2.5em;
+        color: #562B00;
+    }
 
     .logo-header {
+
+        width: 7em;
+        margin: 0;
+    }
+
+    .menu {
+
         display: none;
     }
 
     .conteudo {
 
         flex-direction: column;
-        align-items: center;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .head-text {
+        width: 90%;
+        align-self: center;
     }
 
     .mosaic {
-        width: 90%;
+
+        width: 100%;
     }
 
+    .article {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto 10em auto;
+    }
 
-    .head-text {
+    .article .article-text {
 
+        width: 100%;
+    }
+
+    .article .desenho {
+        width: 70%;
+    }
+
+    .man-bg img {
+        display: none;
+    }
+
+    .formulario {
+
+        text-align: center;
+    }
+
+    .form-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .form {
         width: 90%;
         text-align: center;
     }
@@ -676,35 +729,40 @@ input[type=text], select {
     .staff {
 
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         margin: 0;
         padding: 0;
+    
+    }
 
-      }
+    .staff-member {
+        width: 70%;
+    }
 
-      .staff-member {
-        width: 60%;
-        height: auto;
+    footer {
+        margin-top: 10em;
     }
 
     .logo-footer {
+        width: 10em;
+    }
 
-        width: 20%;
-      }
-    
-}
+    .footer-info {
+        width: 100%;
+        flex-wrap: wrap;
+    }
 
-@media (max-width:600px) {
-    
-    .menu {
+    .info {
+        margin: 1em 2em;
+    }
 
-        display: none;
+    .icons-container {
+
+        width: 80%;
     }
 
 
 }
-
 
 
 
