@@ -705,6 +705,7 @@ input[type=text], select {
 
     .article .desenho {
         width: 70%;
+        margin: 2em 0;
     }
 
     .man-bg img {
@@ -724,6 +725,7 @@ input[type=text], select {
     .form {
         width: 90%;
         text-align: center;
+        margin: 0 auto;
     }
 
     .staff {
