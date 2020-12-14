@@ -32,7 +32,6 @@ header {
 
     list-style: none;
     position: relative;
-    align-self: center;
     font-size: 1.2em;
     display: flex;
 
@@ -59,7 +58,7 @@ header {
 }
 
 .menu ul ul {
-    position: absolute;
+  
     display: flex;
     flex-direction: column;
     visibility: hidden;
@@ -532,6 +531,18 @@ input[type=text], select {
     transform: rotate(90deg);  
 
 }
+
+.vh-footer {
+
+    width: 10em;
+    opacity: 0.2;
+    margin: 4em 0 0 0;
+
+}
+
+
+
+
 
 
 @media (max-width:1200px) {
