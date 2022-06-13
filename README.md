@@ -1,2 +1,2 @@
 # bioma
-Bioma landing page
+Bioma landing page.
